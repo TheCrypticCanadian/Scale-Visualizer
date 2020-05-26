@@ -21,6 +21,12 @@
     <body>
         <div id="display"></div>
         <div id="userControls">
+            Visual:
+            <select name="visual" id="dropdownVisual" onchange="location.reload()">
+                <option value="Keyboard">Keyboard</option>
+                <option value="Fretboard">Fretboard</option>
+                <option value="Sheet">Sheet</option>
+            </select>
             Scale:
             <select name="scale" id="dropdownScale" onchange="location.reload()">
                 <option value="Major">Major</option>

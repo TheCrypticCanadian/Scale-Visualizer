@@ -5014,12 +5014,15 @@ var GUI = function GUI(container) {
   this.piano = new _pianoChart.Instrument(container, {
     startOctave: 3,
     endOctave: 5,
+    showNoteNames: "onhighlight",
     highlightedNotes: notes,
     specialHighlightedNotes: [{
       note: rootNote
-    }]
+    }],
+    keyPressStyle: "vivid"
   });
   this.piano.create();
+  this.piano.keyDown("C#");
 };
 
 var _default = GUI;
@@ -5068,7 +5071,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42129" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41949" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

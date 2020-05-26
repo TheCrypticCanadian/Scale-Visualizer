@@ -16,11 +16,14 @@ class GUI {
         this.piano = new Instrument(container, {
             startOctave: 3,
             endOctave: 5,
+            showNoteNames:"onhighlight",
             highlightedNotes: notes,
             specialHighlightedNotes: [{ note: rootNote }],
+            keyPressStyle: "vivid"
           }
         );
         this.piano.create();
+        this.piano.keyDown("C#")
     }
 
 }
