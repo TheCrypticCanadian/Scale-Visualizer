@@ -4969,6 +4969,26 @@ var ScaleGenerator = /*#__PURE__*/function () {
         'Bb': ['Bb', 'C', 'D', 'Eb', 'F', 'G', 'A', 'Bb'],
         'B': [' B', 'C#', 'D#', 'E', 'F#', 'G#', 'A#', 'B'],
         'Cb': ['Cb', 'Db', 'Eb', 'Fb', 'Gb', 'Ab', 'Bb', 'Cb']
+      },
+      'Natural Minor': {
+        'C': ['C', 'D', 'Eb', 'F', 'G', 'Ab', 'Bb', 'C'],
+        'C#': ['C#', 'D#', 'E', 'F#', 'G#', 'A', 'B', 'C#'],
+        'Db': ['Db', 'Eb', 'Fb', 'Gb', 'Ab', 'A', 'B', 'Db'],
+        'D': ['D', 'E', 'F', 'G', 'A', 'Bb', 'C', 'D'],
+        'D#': ['D#', 'E#', 'F#', 'G#', 'A#', 'B', 'C#', 'D#'],
+        'Eb': ['Eb', 'F', 'Gb', 'Ab', 'Bb', 'Cb', 'Db', 'Eb'],
+        'E': ['E', 'F#', 'G', 'A', 'B', 'C', 'D', 'E'],
+        'F': ['F', 'G', 'Ab', 'Bb', 'C', 'Db', 'Eb', 'F'],
+        'F#': ['F#', 'G#', 'A', 'B', 'C#', 'D', 'E', 'F#'],
+        'Gb': ['Gb', 'Ab', 'Bbb', 'Cb', 'Db', 'Ebb', 'Fb', 'Gb'],
+        'G': ['G', 'A', 'Bb', 'C', 'D', 'Eb', 'F', 'G'],
+        'G#': ['G#', 'A#', 'B', 'C#', 'D#', 'E', 'F#', 'G#'],
+        'Ab': ['Ab', 'Bb', 'Cb', 'Db', 'Eb', 'Fb', 'Gb', 'Ab'],
+        'A': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'A'],
+        'A#': ['A#', 'B#', 'C#', 'D#', 'F', 'F#', 'G#', 'A#'],
+        'Bb': ['Bb', 'C', 'Db', 'Eb', 'F', 'Gb', 'Ab', 'Bb'],
+        'B': ['B', 'C#', 'D', 'E', 'F#', 'G', 'A', 'B'],
+        'Cb': ['Cb', 'Db', 'Ebb', 'Fb', 'Gb', 'Abb', 'Bbb', 'Cb']
       }
     };
   }
@@ -5043,7 +5063,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 var gui = new _GUI.default(document.getElementById("display"));
 var generator = new _ScaleGenerator.default();
-},{"piano-chart":"node_modules/piano-chart/piano-chart.esm.js","./GUI.js":"GUI.js","./ScaleGenerator.js":"ScaleGenerator.js"}],"../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"piano-chart":"node_modules/piano-chart/piano-chart.esm.js","./GUI.js":"GUI.js","./ScaleGenerator.js":"ScaleGenerator.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -5071,7 +5091,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41949" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39757" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -5247,5 +5267,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/Scale-Visualizer.e31bb0bc.js.map
