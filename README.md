@@ -1,2 +1,4 @@
 # Scale-Buddy
-Simple Python program which has the ability to generate music scales
+Simple web application to display various music scales.
+
+![Example](Docs/EX1.png)
